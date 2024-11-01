@@ -1,0 +1,25 @@
+li{
+    color: #000;
+    background: #e8eaed85;
+    width: 200px;
+    display: block;
+    border: 1px solid#0000000c;
+}
+
+li:hover{
+    background-color: rgb(91, 91, 253);
+}
+.box{
+    position: relative;
+    left: 0;
+}
+ul{
+    padding: 0px;
+}
+i{
+    background-color: #9e9e9e;
+    
+}
+i:hover{
+    background-color: rgb(18, 237, 237);
+}

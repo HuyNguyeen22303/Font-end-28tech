@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!-- <style>
+        .element-cha {
+            border: 5px solid #ff0000;
+        }
+        .element-child{
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .element-con-a{
+            height: 100px;
+            background-color: #b4b400;
+        }
+
+        .element-con-b{
+            height: 150px;
+            background-color: #3535f3;
+        }
+        
+        .element-con-c{
+            height: 200px;
+            background-color: #00a31a;
+        }
+        .element-con-a{
+            float: left;
+        }
+        
+        .element-con-b{
+            float: right;
+        }
+        .element-con-c{
+            float: right;
+            
+        }
+
+        .clear-both{
+            clear: both;
+        }
+        
+
+    </style>
+    <div class="element-cha">
+        <div class="element-child element-con-a">Phần tử a</div>
+        <div class="element-child element-con-b">Phần tử b</div>
+        <div class="element-child element-con-c">Phần tử c</div>
+        <div class="clear-both"></div>
+    </div> -->
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+
+        .box {
+            background-color: #cccccc;
+            margin: 5px;
+            padding: 20px;
+            text-align: center;
+            font: 20px;
+            font-weight: 700;
+            font-family: Arial;
+        }
+        .sidebar-1{
+            width: 25%;
+            float: left;
+
+        }
+
+        .article{
+            width: calc(50% - 30px);
+            float: left;
+        }
+        .sidebar-2{
+            width: 25%;
+            float: right;
+        }
+        .clear-both{
+            clear: both;
+        }
+
+        
+    </style>
+    
+        <div class="box header">header</div>
+        <div class="main">
+            <div class="box sidebar-1">sidebar 1</div>
+            <div class="box article">article</div>
+            <div class="box sidebar-2">sidebar 2</div>
+            <div class="clear-both"></div>
+        </div>
+
+        <div class="box footer">footer</div>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+.section-one{
+    background-color: #F9FCF9;
+    padding: 80px 0;
+    margin-bottom: 40px;
+  }
+
+  .section-one .iner-box i{
+    color: #5CB874;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .section-one .iner-box .iner-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  .section-one .iner-box .iner-desc{
+    font-size: 16px;    
+  }
+
+  .section-one .iner-box{
+    margin-bottom: 30px;
+  }
+
+  .section-two{
+    background-color: #fff;
+    padding: 60px;
+  }
+
+  .section-two .iner-head .iner-title{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+
+  .section-two .iner-head .iner-desc{
+    text-align: center;
+    margin-bottom: 50px;
+
+  }
+
+  .section-two .iner-image img{
+    width: 100%;
+    height: auto;
+  }
+
+  .section-two .iner-content .iner-title{
+    font-size: 26px;
+
+  }
+  .section-two .iner-content.iner-desc1{
+    font-size: 16px;
+    font-style: italic;
+  }
+
+  /* .section-two .iner-content .iner-desc2 i{
+    
+
+
+    display: contents;
+  } */
+
+
+  /* @media (max-width: 991.98px){
+
+  } */
+
+  .section-two .iner-image{
+    margin-bottom: 30px;
+  }
+

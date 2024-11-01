@@ -1,0 +1,15 @@
+:root{
+    --white: #d71919;
+    /* Đây là kiểu khai báo biến toàn cục cái này tiện lợi hơn */
+}
+
+h2{
+    color: var(--white);
+}
+
+
+h2{
+    --blue: #310b7c ;
+    color: var(--blue);
+    /* Đây là kiểu khai báo biến cục bộ */
+}

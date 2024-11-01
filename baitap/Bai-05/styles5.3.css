@@ -1,0 +1,144 @@
+.b1{
+    position: sticky;
+    height: 30px;
+    width: 100%;
+    background-color: orange;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+.b2 , .b3 ,.b4,.b5,.b6{
+    color: white;
+}
+.b2{
+    
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.b3{
+    
+    position: absolute;
+    left: 100px;
+    bottom: 5px;
+}
+
+.b4{
+    
+    position: absolute;
+    left: 195px;
+    bottom: 5px;
+}
+.b5{
+    
+    position: absolute;
+    left: 295px;
+    bottom: 5px;
+}
+
+.b6{
+    position: absolute;
+    left: 380px;
+    bottom: 5px;
+}
+
+.bd0{
+
+    width: 100%;
+    height: 500px;
+    background-color: #CDCDCD;
+    position: relative;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+.bd1,.bd2,.bd3,.bd4{
+    color: white;
+    background-color: orange;
+    position: absolute;
+    
+}
+.bd1{
+    height: 50px;
+    width: 70px;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+
+.bd2{
+    width: 70px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    bottom: 39px;
+    left: 1252px;
+}
+
+.bd3{
+    width: 70px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    background-color: green;
+    top: 31px;
+    left: 1261px;
+}
+
+.bd4{
+    width: 70px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    background-color: blue;
+    top: 415px;
+    left: 35px;
+}
+
+
+.box-a{
+    
+    background-color: blue;
+    position: relative;
+    border-radius: 7px;
+    padding: 90px 30px;
+    position: relative;
+    
+}
+
+.box-a .box-b{
+    color: white;
+    position: relative;
+    z-index: 1;
+
+}
+.box-a .box-b::first-letter{
+    font-size: 40px;
+}
+.box-a .box-b::first-line{
+    text-transform: uppercase;
+}
+
+.box-a::before{
+    content: "";
+    display: block;
+    height: 120px;
+    width: 120px;
+    background-color: #00000080;
+    border-radius: 50%;
+    top: 27px;
+    left: 0;
+    position: absolute;
+}
+
+.box-a::after{
+    display: block;
+    content: "";
+    height: 250px;
+    width: 250px;
+    background-color: #00000080;
+    border-radius: 50%;
+    bottom: 0;
+    right: -70px;
+    position: absolute;
+
+}
